@@ -1,0 +1,42 @@
+body{
+
+}
+.wrapper{
+    width: 600px;
+    margin: 0px auto;
+}
+p{
+
+}
+header{
+  float: left;
+}
+.lightGrayBox{
+    text-align: center;
+    background: #eee ;
+}
+.darkGrayBox{
+    height: 125px;
+    width: 200px;
+    background: red;
+}
+
+#fixed{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100px;
+    width: 150px;
+}
+#relative{
+    position: relative;
+    padding: 200px;
+}
+#absolute{
+    position: absolute;
+    bottom: 0px;
+    right: -28px;
+}
+#differentColor{
+    color: teal;
+}

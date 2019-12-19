@@ -1,0 +1,135 @@
+.wrapper{
+    margin-right: auto;
+    margin-left: auto;
+
+    max-width: auto;
+    
+    padding-right: 10px;
+    padding-left: 10px;
+   
+}
+
+.container{
+   
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: 1px solid gray;
+    flex-flow: row wrap;
+    align-items: flex-start;
+
+    margin-right: auto;
+    margin-left: auto;
+
+    max-width: 940px;
+    
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.item{
+  
+
+}
+
+#imgItem{
+    max-width: 60%;
+    padding: 20px;
+}
+
+#textItem{
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    padding: 40px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #cccccc;
+    margin-bottom: 40px;
+}
+
+.navLinks{
+    list-style: none;
+}
+
+.navLinks li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.break{
+  width: 960px;
+  height: 10%;
+  padding: 5px;
+  border-bottom: 2px solid #cccccc;
+}
+
+div{
+    display: flex;
+    
+    flex-wrap: wrap;
+}
+
+#divSize{
+    width: 33%;
+    height: 33%;
+}
+
+
+
+#divTextSize{
+    width: 66%;
+    height: 66%;
+    font-size: 150%;
+}
+
+
+.h1{
+    color: #4aaaa5;
+}
+
+#aligner{
+    margin-right: auto;
+    margin-left: auto;
+
+    max-width: 940px;
+    
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ul , p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer{
+    border-top: 8px solid #4aaaa5;
+    background-color: #666666;
+    margin-top: 40px;
+    padding: 40px;
+}
+
+#body{
+    background-image: url("../Homework/vintage-wallpaper.png") blue;
+}
+#headerTextColor{
+    background: #4aaaa5;
+    padding: 40px;
+}
+
+.inputs{
+    max-width: 960px;
+}
+
+.inputAlign{
+    display: flex;
+    flex-direction: column;
+}
